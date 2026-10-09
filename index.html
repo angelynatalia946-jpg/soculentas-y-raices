@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Raíces & Suculentas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="#inicio" class="logo">
+                🌿 Raíces & Suculentas
+            </a>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#plantas">Plantas</a></li>
+                <li><a href="#cuidados">Cuidados</a></li>
+                <li><a href="#lugares">Lugares</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- INICIO -->
+    <section id="inicio" class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <p class="mini-title">
+                UN PEQUEÑO ESPACIO VERDE
+            </p>
+
+            <h1>
+                Conecta con la naturaleza
+                <span>desde tu hogar</span>
+            </h1>
+
+            <p class="hero-text">
+                Descubre cactus y suculentas hermosas, aprende a cuidarlas
+                y encuentra el lugar perfecto para cada una.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#plantas" class="btn btn-primary">
+                    Explorar plantas
+                </a>
+
+                <a href="#cuidados" class="btn btn-light">
+                    Ver cuidados
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            <span class="hero-card-icon">🌵</span>
+
+            <h3>
+                Tu espacio, tu naturaleza
+            </h3>
+
+            <p>
+                Una guía sencilla para empezar a disfrutar
+                el mundo de las plantas.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONCEPTO -->
+    <section class="concepto">
+
+        <div class="concepto-icon">
+            🌱
+        </div>
+
+        <div>
+
+            <p class="section-label">
+                NUESTRO CONCEPTO
+            </p>
+
+            <h2>
+                Pequeñas plantas, grandes espacios
+            </h2>
+
+            <p>
+                Cuidar una planta es también dedicar un momento a la
+                naturaleza. Aquí encontrarás ideas para llenar tus espacios
+                de vida, color y tranquilidad.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- PLANTAS -->
+    <section id="plantas" class="section">
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                DESCUBRE
+            </p>
+
+            <h2>
+                Plantas que puedes tener en casa
+            </h2>
+
+            <p>
+                Conoce algunas especies populares de cactus y suculentas.
+                Haz clic en una planta para conocer sus cuidados.
+            </p>
+
+        </div>
+
+
+        <div class="plant-grid">
+
+
+            <!-- ECHEVERIA -->
+            <article class="plant-card"
+                data-name="Echeveria"
+                data-type="Suculenta"
+                data-care="Necesita bastante luz indirecta. Riégala solamente cuando la tierra esté completamente seca."
+                data-place="Una ventana con buena iluminación, un escritorio luminoso o un balcón protegido.">
+
+                <div class="plant-image image-echeveria"></div>
+
+                <div class="plant-info">
+
+                    <span class="tag">
+                        SUCULENTA
+                    </span>
+
+                    <h3>
+                        Echeveria
+                    </h3>
+
+                    <p>
+                        Sus hojas forman una hermosa roseta.
+                    </p>
+
+                    <button class="more-btn">
+                        Ver información →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- ALOE -->
+            <article class="plant-card"
+                data-name="Aloe vera"
+                data-type="Suculenta"
+                data-care="Prefiere mucha luz y un riego moderado. Deja secar la tierra entre cada riego."
+                data-place="Cerca de una ventana, patio, balcón o zona exterior con buena iluminación.">
+
+                <div class="plant-image image-aloe"></div>
+
+                <div class="plant-info">
+
+                    <span class="tag">
+                        SUCULENTA
+                    </span>
+
+                    <h3>
+                        Aloe vera
+                    </h3>
+
+                    <p>
+                        Una planta resistente y fácil de cuidar.
+                    </p>
+
+                    <button class="more-btn">
+                        Ver información →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- HAWORTHIA -->
+            <article class="plant-card"
+                data-name="Haworthia"
+                data-type="Suculenta"
+                data-care="Le gusta la luz indirecta y necesita poca agua. Evita mantener sus raíces constantemente húmedas."
+                data-place="Escritorios, repisas, ventanas luminosas y espacios interiores bien iluminados.">
+
+                <div class="plant-image image-haworthia"></div>
+
+                <div class="plant-info">
+
+                    <span class="tag">
+                        SUCULENTA
+                    </span>
+
+                    <h3>
+                        Haworthia
+                    </h3>
+
+                    <p>
+                        Pequeña, decorativa y perfecta para interiores.
+                    </p>
+
+                    <button class="more-btn">
+                        Ver información →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- CACTUS -->
+            <article class="plant-card"
+                data-name="Cactus Mammillaria"
+                data-type="Cactus"
+                data-care="Necesita mucha luz. Riégalo poco y solamente cuando el sustrato esté seco."
+                data-place="Ventanas soleadas, balcones, terrazas o jardines con buen drenaje.">
+
+                <div class="plant-image image-cactus"></div>
+
+                <div class="plant-info">
+
+                    <span class="tag cactus-tag">
+                        CACTUS
+                    </span>
+
+                    <h3>
+                        Mammillaria
+                    </h3>
+
+                    <p>
+                        Un cactus pequeño con una forma muy especial.
+                    </p>
+
+                    <button class="more-btn">
+                        Ver información →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- SEDUM -->
+            <article class="plant-card"
+                data-name="Sedum"
+                data-type="Suculenta"
+                data-care="Necesita buena iluminación y poca agua. Un sustrato con buen drenaje es importante."
+                data-place="Macetas colgantes, balcones, repisas luminosas y pequeños jardines.">
+
+                <div class="plant-image image-sedum"></div>
+
+                <div class="plant-info">
+
+                    <span class="tag">
+                        SUCULENTA
+                    </span>
+
+                    <h3>
+                        Sedum
+                    </h3>
+
+                    <p>
+                        Sus pequeñas hojas hacen que sea muy decorativa.
+                    </p>
+
+                    <button class="more-btn">
+                        Ver información →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- ECHINOPSIS -->
+            <article class="plant-card"
+                data-name="Echinopsis"
+                data-type="Cactus"
+                data-care="Prefiere mucha luz y un riego moderado-bajo. Usa una maceta con drenaje."
+                data-place="Patios, balcones, terrazas y ventanas donde reciba suficiente luz.">
+
+                <div class="plant-image image-echinopsis"></div>
+
+                <div class="plant-info">
+
+                    <span class="tag cactus-tag">
+                        CACTUS
+                    </span>
+
+                    <h3>
+                        Echinopsis
+                    </h3>
+
+                    <p>
+                        Un cactus que puede sorprender con sus flores.
+                    </p>
+
+                    <button class="more-btn">
+                        Ver información →
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- CUIDADOS -->
+    <section id="cuidados" class="section soft-section">
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                APRENDE
+            </p>
+
+            <h2>
+                Cuidados básicos
+            </h2>
+
+            <p>
+                No necesitas ser experto para empezar.
+                Solo presta atención a las necesidades de tu planta.
+            </p>
+
+        </div>
+
+
+        <div class="care-grid">
+
+
+            <div class="care-card">
+
+                <div class="care-icon">
+                    ☀️
+                </div>
+
+                <h3>
+                    Luz
+                </h3>
+
+                <p>
+                    La mayoría de cactus y suculentas necesitan mucha
+                    iluminación. Algunas prefieren luz indirecta.
+                </p>
+
+            </div>
+
+
+            <div class="care-card">
+
+                <div class="care-icon">
+                    💧
+                </div>
+
+                <h3>
+                    Riego
+                </h3>
+
+                <p>
+                    Espera a que la tierra se seque antes de volver a
+                    regar. El exceso de agua puede dañar las raíces.
+                </p>
+
+            </div>
+
+
+            <div class="care-card">
+
+                <div class="care-icon">
+                    🪴
+                </div>
+
+                <h3>
+                    Tierra
+                </h3>
+
+                <p>
+                    Usa un sustrato que drene bien para evitar que el agua
+                    se quede acumulada.
+                </p>
+
+            </div>
+
+
+            <div class="care-card">
+
+                <div class="care-icon">
+                    🌡️
+                </div>
+
+                <h3>
+                    Ambiente
+                </h3>
+
+                <p>
+                    Busca un lugar ventilado y adapta la ubicación según
+                    la especie y la cantidad de luz disponible.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- LUGARES -->
+    <section id="lugares" class="section">
+
+        <div class="section-heading">
+
+            <p class="section-label">
+                ENCUENTRA SU LUGAR
+            </p>
+
+            <h2>
+                ¿Dónde puedo colocar mi planta?
+            </h2>
+
+            <p>
+                Cada rincón puede convertirse en un pequeño espacio verde.
+            </p>
+
+        </div>
+
+
+        <div class="places-grid">
+
+
+            <div class="place-card">
+
+                <span>🪟</span>
+
+                <h3>
+                    Ventana
+                </h3>
+
+                <p>
+                    Ideal para plantas que necesitan buena iluminación.
+                </p>
+
+            </div>
+
+
+            <div class="place-card">
+
+                <span>🛋️</span>
+
+                <h3>
+                    Sala
+                </h3>
+
+                <p>
+                    Un lugar bonito para decorar y darle vida al ambiente.
+                </p>
+
+            </div>
+
+
+            <div class="place-card">
+
+                <span>📚</span>
+
+                <h3>
+                    Escritorio
+                </h3>
+
+                <p>
+                    Perfecto para pequeñas suculentas que toleran interiores.
+                </p>
+
+            </div>
+
+
+            <div class="place-card">
+
+                <span>🌤️</span>
+
+                <h3>
+                    Balcón
+                </h3>
+
+                <p>
+                    Buena opción para especies que necesitan más luz.
+                </p>
+
+            </div>
+
+
+            <div class="place-card">
+
+                <span>🌿</span>
+
+                <h3>
+                    Jardín
+                </h3>
+
+                <p>
+                    Para plantas que disfrutan de espacios exteriores.
+                </p>
+
+            </div>
+
+
+            <div class="place-card">
+
+                <span>🪴</span>
+
+                <h3>
+                    Repisas
+                </h3>
+
+                <p>
+                    Una forma sencilla de crear pequeños rincones verdes.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- BENEFICIOS -->
+    <section id="beneficios" class="benefits">
+
+        <div class="benefits-text">
+
+            <p class="section-label">
+                MÁS QUE DECORACIÓN
+            </p>
+
+            <h2>
+                Haz de tu espacio un lugar más natural
+            </h2>
+
+            <p>
+                Las plantas pueden transformar la apariencia de una
+                habitación y hacer que nuestros espacios se sientan más
+                acogedores. Cuidarlas también nos invita a tener paciencia,
+                constancia y conexión con la naturaleza.
+            </p>
+
+
+            <div class="benefit-list">
+
+                <div>
+                    <span>✓</span>
+                    Decoran tus espacios
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    Te acercan a la naturaleza
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    Puedes aprender algo nuevo
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    Expresas tu creatividad
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="benefits-box">
+
+            <div class="leaf-decoration">
+                🌿
+            </div>
+
+            <h3>
+                Empieza con una
+            </h3>
+
+            <p>
+                No necesitas tener muchas plantas.
+                Una pequeña suculenta puede ser el comienzo
+                de tu propio rincón verde.
+            </p>
+
+            <a href="#plantas" class="btn btn-primary">
+                Elegir una planta
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- VENTANA DE INFORMACIÓN -->
+    <div class="modal" id="plantModal">
+
+        <div class="modal-content">
+
+            <button class="close-btn" id="closeModal">
+                ×
+            </button>
+
+            <span class="tag" id="modalType">
+                SUCULENTA
+            </span>
+
+            <h2 id="modalName">
+                Echeveria
+            </h2>
+
+
+            <div class="modal-line">
+
+                <strong>
+                    💧 Cuidados
+                </strong>
+
+                <p id="modalCare"></p>
+
+            </div>
+
+
+            <div class="modal-line">
+
+                <strong>
+                    🏡 Lugar recomendado
+                </strong>
+
+                <p id="modalPlace"></p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+
+        <div class="footer-logo">
+            🌿 Raíces & Suculentas
+        </div>
+
+        <p>
+            Conecta con la naturaleza desde tu hogar.
+        </p>
+
+        <p class="copyright">
+            © 2026 | Proyecto web de Angely
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
